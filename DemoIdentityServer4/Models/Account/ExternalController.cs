@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace OAuthServer.Models.Account
+namespace DemoIdentityServer4.Models.Account
 {
     [SecurityHeaders]
     [AllowAnonymous]

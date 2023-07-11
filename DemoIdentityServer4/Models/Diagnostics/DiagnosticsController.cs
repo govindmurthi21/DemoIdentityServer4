@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace OAuthServer.Models.Diagnostics
+namespace DemoIdentityServer4.Models.Diagnostics
 {
     [SecurityHeaders]
     [Authorize]

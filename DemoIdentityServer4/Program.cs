@@ -1,11 +1,13 @@
+using DemoIdentityServer4.IdentityConfiguration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddIdentityServer()
-    .AddInMemoryClients(OAuthServer.IdentityConfiguration.Clients.Get())
-    .AddInMemoryIdentityResources(OAuthServer.IdentityConfiguration.Resources.GetIdentityResources())
-    .AddInMemoryApiResources(OAuthServer.IdentityConfiguration.Resources.GetApiResources())
-    .AddInMemoryApiScopes(OAuthServer.IdentityConfiguration.Scopes.GetApiScopes())
-    .AddTestUsers(OAuthServer.IdentityConfiguration.Users.Get())
+    .AddInMemoryClients(Clients.Get())
+    .AddInMemoryIdentityResources(Resources.GetIdentityResources())
+    .AddInMemoryApiResources(Resources.GetApiResources())
+    .AddInMemoryApiScopes(Scopes.GetApiScopes())
+    .AddTestUsers(Users.Get())
     .AddDeveloperSigningCredential();
 
 builder.Services.AddControllersWithViews();

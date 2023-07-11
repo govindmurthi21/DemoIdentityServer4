@@ -6,7 +6,7 @@ using IdentityServer4.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace OAuthServer.Models.Home
+namespace DemoIdentityServer4.Models.Home
 {
     [SecurityHeaders]
     [AllowAnonymous]

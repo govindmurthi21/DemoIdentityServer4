@@ -2,7 +2,7 @@ using System.Security.Claims;
 using IdentityModel;
 using IdentityServer4.Test;
 
-namespace OAuthServer.IdentityConfiguration;
+namespace DemoIdentityServer4.IdentityConfiguration;
 
 public class Users
 {

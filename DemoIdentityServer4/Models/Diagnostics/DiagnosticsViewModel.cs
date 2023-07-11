@@ -7,7 +7,7 @@ using IdentityModel;
 using Microsoft.AspNetCore.Authentication;
 using Newtonsoft.Json;
 
-namespace OAuthServer.Models.Diagnostics
+namespace DemoIdentityServer4.Models.Diagnostics
 {
     public class DiagnosticsViewModel
     {

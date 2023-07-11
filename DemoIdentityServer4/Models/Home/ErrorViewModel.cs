@@ -4,7 +4,7 @@
 
 using IdentityServer4.Models;
 
-namespace OAuthServer.Models.Home
+namespace DemoIdentityServer4.Models.Home
 {
     public class ErrorViewModel
     {

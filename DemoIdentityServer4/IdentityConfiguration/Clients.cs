@@ -1,7 +1,7 @@
 using IdentityServer4;
 using IdentityServer4.Models;
 
-namespace OAuthServer.IdentityConfiguration;
+namespace DemoIdentityServer4.IdentityConfiguration;
 
 public class Clients
 {

@@ -1,8 +1,8 @@
+using DemoIdentityServer4.Models.Account;
 using IdentityServer4.Models;
 using Microsoft.AspNetCore.Mvc;
-using OAuthServer.Models.Account;
 
-namespace OAuthServer.Models
+namespace DemoIdentityServer4.Models
 {
     public static class Extensions
     {

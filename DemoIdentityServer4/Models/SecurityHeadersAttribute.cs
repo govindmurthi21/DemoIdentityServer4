@@ -5,7 +5,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace OAuthServer.Models
+namespace DemoIdentityServer4.Models
 {
     public class SecurityHeadersAttribute : ActionFilterAttribute
     {

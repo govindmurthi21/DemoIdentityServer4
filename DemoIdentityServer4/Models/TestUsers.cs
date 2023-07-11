@@ -8,7 +8,7 @@ using IdentityModel;
 using IdentityServer4;
 using IdentityServer4.Test;
 
-namespace OAuthServer.Models
+namespace DemoIdentityServer4.Models
 {
     public class TestUsers
     {

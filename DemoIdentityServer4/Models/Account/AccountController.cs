@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace OAuthServer.Models.Account
+namespace DemoIdentityServer4.Models.Account
 {
     /// <summary>
     /// This sample controller implements a typical login/logout/provision workflow for local and external accounts.

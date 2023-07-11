@@ -2,6 +2,7 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
+using DemoIdentityServer4.Models.Consent;
 using IdentityServer4.Configuration;
 using IdentityServer4.Events;
 using IdentityServer4.Extensions;
@@ -11,9 +12,8 @@ using IdentityServer4.Validation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
-using OAuthServer.Models.Consent;
 
-namespace OAuthServer.Models.Device
+namespace DemoIdentityServer4.Models.Device
 {
     [Authorize]
     [SecurityHeaders]

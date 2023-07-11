@@ -1,6 +1,6 @@
 using IdentityServer4.Models;
 
-namespace OAuthServer.IdentityConfiguration;
+namespace DemoIdentityServer4.IdentityConfiguration;
 
 public class Scopes
 {

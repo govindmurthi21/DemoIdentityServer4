@@ -10,7 +10,7 @@ using IdentityServer4.Validation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace OAuthServer.Models.Consent
+namespace DemoIdentityServer4.Models.Consent
 {
     /// <summary>
     /// This controller processes the consent UI

@@ -9,7 +9,7 @@ using IdentityServer4.Stores;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace OAuthServer.Models.Grants
+namespace DemoIdentityServer4.Models.Grants
 {
     /// <summary>
     /// This sample controller allows a user to revoke grants given to clients

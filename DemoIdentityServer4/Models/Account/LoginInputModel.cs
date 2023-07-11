@@ -4,7 +4,7 @@
 
 using System.ComponentModel.DataAnnotations;
 
-namespace OAuthServer.Models.Account
+namespace DemoIdentityServer4.Models.Account
 {
     public class LoginInputModel
     {

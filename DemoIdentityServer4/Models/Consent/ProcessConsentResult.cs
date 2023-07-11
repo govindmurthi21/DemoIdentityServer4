@@ -4,7 +4,7 @@
 
 using IdentityServer4.Models;
 
-namespace OAuthServer.Models.Consent
+namespace DemoIdentityServer4.Models.Consent
 {
     public class ProcessConsentResult
     {

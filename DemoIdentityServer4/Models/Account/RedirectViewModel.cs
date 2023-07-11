@@ -3,7 +3,7 @@
 
 
 
-namespace OAuthServer.Models.Account
+namespace DemoIdentityServer4.Models.Account
 {
     public class RedirectViewModel
     {
